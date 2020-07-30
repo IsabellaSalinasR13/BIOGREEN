@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+}
+.menu{
+    display: flex;
+    background-color: rgb(169, 255, 41);
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+nav{
+    flex-grow: 3;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+} 
+nav ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 11px 50px;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: black;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.548), white); 
+}
+header{
+    height: 660px;
+    background-image: url(../imagenes/Reciclaje.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .cuadroTexto{
+    width: 35%;
+    padding: 40px 60px;
+    background-color: rgba(248, 248, 248, 0.356);
+    transform: skewX(-25deg)
+}
+.cuadroTexto h1{
+    transform: skewX(25deg);
+    text-align: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.cuadroTexto p{
+    transform: skewX(25deg);
+    text-align: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.contenedorVideo{
+    height: 650px;
+    position: relative;
+    display: flex;
+    background-image: url(../imagenes/raices-plantas.jpg);
+    background-size: contain;
+}
+.contenedorVideo div{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.534);
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+.contenidoTexto{
+    top: 150px;
+    left: 455px;
+    color: rgb(27, 78, 49);
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.contenedorVideo h2{
+    margin: 5px;
+}
+.contenedorVideo p{
+    margin-top: 30px;
+    text-align: justify;
+}
+.contenedorVideo video{
+    width: 100%;
+}
