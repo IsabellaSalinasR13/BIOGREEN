@@ -85,7 +85,7 @@ header .cuadroTexto{
 .contenedorUno{
     /*background-color: rgb(227, 255, 182);
     border: 2px solid rgb(68, 0, 255);*/
-    background-color: rgba(196, 255, 196, 0.602);
+    background-color: rgba(86, 247, 86, 0.602);
     height: 100px;
     width: 35%;
     margin-top: 50px;
@@ -98,7 +98,7 @@ header .cuadroTexto{
 .contenedorDos{
     /*background-color: rgb(182, 238, 255);
     border: 2px solid rgb(255, 0, 200);*/
-    background-color: rgba(196, 255, 196, 0.602);
+    background-color: rgba(88, 238, 88, 0.602);
     height: 110px;
     width: 35%;
     margin-top: -115px;
