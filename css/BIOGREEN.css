@@ -74,7 +74,7 @@ header .cuadroTexto{
 }
 .contenedorVideo div{
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.534);
+    background-color: rgba(3, 0, 0, 0.534);
     padding: 20px;
     border-radius: 20px;
     width: 400px;
@@ -84,7 +84,7 @@ header .cuadroTexto{
 .contenidoTexto{
     top: 150px;
     left: 455px;
-    color: rgb(27, 78, 49);
+    color: white;
     font-family: sans-serif;
     text-align: center;
     font-weight: bolder;

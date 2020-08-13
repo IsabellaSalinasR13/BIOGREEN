@@ -72,14 +72,19 @@ header .cuadroTexto{
     font-family: sans-serif;
     letter-spacing: 2px;
 }
+
+
 .contenedores{
-    /*background-color: rgb(255, 182, 193);
-    border: 2px solid red;*/
-    height: 200px;
-    width: 90%;
-    margin-bottom: -270px;
+    width: 20%;
+    height: 12%;
+    margin: auto 170px;
+    margin-bottom: 120px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.644);
+    border: 6px dotted black;
+    border-radius: 30px;
     justify-content: space-between;
-    transition: all 2s;
+    transition: all 2.2s;
     transform: scale(1);
 }
 .contenedorUno{
@@ -113,16 +118,26 @@ header .cuadroTexto{
     text-align: center;
     align-items: center;
     font-weight: bolder;
+}
+
+.ventEmergente a{
+    text-decoration: none;
+    padding: 7px;
+    color: white;
     font-family: sans-serif;
-    letter-spacing: 2px;
-    margin-top: 25px;
+    font-weight: bolder;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    background-color: rgb(54, 124, 26); 
     cursor: pointer;
 }
-.contenedores h2:hover{
+
+.ventEmergente a:hover{
     color: black;
-    border-radius: 30px;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.548), white); 
+    background-color: yellow; 
 }
+
 
 section{
     background-image: url(../imagenes/hojas.jpg);
@@ -146,6 +161,5 @@ section{
     font-weight: bolder;
     font-family: sans-serif;
     letter-spacing: 2px;
-    margin-top: 25px;
-    
+    margin-top: 25px;   
 }

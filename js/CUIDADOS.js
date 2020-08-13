@@ -1,7 +1,7 @@
 
-function abrir(){
-    document.getElementById('ventana').style.display="block";
+function abrir(num){
+    document.getElementById('ventana'+num).style.display="block";
 }
-function cerrar(){
-    document.getElementById("ventana").style.display="none";
+function cerrar(num){
+    document.getElementById("ventana"+num).style.display="none";
 }
