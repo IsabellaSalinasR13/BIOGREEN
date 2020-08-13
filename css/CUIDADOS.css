@@ -35,7 +35,7 @@ nav ul li a:hover{
 }
 
 header{
-    height: 657px;
+    height: 656px;
     background-image: url(../imagenes/pulmones.jpg);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: soft-light;
@@ -48,7 +48,7 @@ header{
 header .cuadroTexto{
     position: absolute;
     padding: 70px 70px;
-    border: rgba(226, 235, 222, 0.856) double 25px;
+    border: white double 25px;
 }
 .cuadroTexto h1{
     color: white;
@@ -102,18 +102,17 @@ section{
     border-radius: 100px;
 }
 .articulos a{
-   position: relative;
-   text-decoration: none;
-   margin-top: 20px;
-   padding: 12px;
-   color: white;
-   font-family: sans-serif;
-   font-weight: bolder;
-   font-size: 18px;
-   letter-spacing: 1px;
-   border-radius: 10px;
-   background-color: rgb(54, 124, 26); 
-   cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    padding: 11px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    background-color: rgb(54, 124, 26); 
+    cursor: pointer;
 }
 .articulos a:hover{
     background-color: yellow;
@@ -165,6 +164,38 @@ section{
     font-weight: bolder;
 }
 
-
-
-
+.contenedorDos{
+    height: 620px;
+    width: 100%;
+    background-image: url(../imagenes/reciclaje3col.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: hard-light;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.conteDos{
+    width: 75%;
+    height: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.767);
+    border: 13px double black;
+    border-radius: 20px;
+}
+.contenedorDos h3{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.contenedorDos p{
+    padding: 10px;
+    font-size: 17px;
+    color: black;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
