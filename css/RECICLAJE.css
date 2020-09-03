@@ -87,6 +87,38 @@ header .cuadroTexto{
     transition: all 2.2s;
     transform: scale(1);
 }
+.contenedorUno{
+    /*background-color: rgb(227, 255, 182);
+    border: 2px solid rgb(68, 0, 255);*/
+    background-color: rgba(86, 247, 86, 0.602);
+    height: 100px;
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 160px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding-top: 12px;
+}
+.contenedorDos{
+    /*background-color: rgb(182, 238, 255);
+    border: 2px solid rgb(255, 0, 200);*/
+    background-color: rgba(88, 238, 88, 0.602);
+    height: 110px;
+    width: 35%;
+    margin-top: -115px;
+    margin-left: 640px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    padding-top: 12px;
+}
+.contenedores h2{
+    color:black;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+}
 
 .ventEmergente a{
     text-decoration: none;
