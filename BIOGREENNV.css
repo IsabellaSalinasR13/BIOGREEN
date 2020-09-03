@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+}
+.menu{
+    display: flex;
+    background-color: rgb(245, 248, 241);
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav{
+    flex-grow: 3;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+} 
+nav ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin: 20px 10px;
+} 
+nav a{
+   text-decoration: none;
+   color: rgb(53, 51, 51);
+   font-weight: lighter;
+   font-size:100 ;
+} 
+nav a:hover{
+    color: rgb(53, 148, 81);
+} 
+.Logo{
+    background-image: url(imagenes/logo.jpg);
+    height: 85px;
+    width: 120px;
+    background-size: cover;
+    background-position: center;
+    margin: auto 5px;
+} 
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.contenedor1{
+    margin: 5px 5px;
+    display: flex;
+    height: 650px;
+    overflow: hidden;
+    
+} 
+.contenedor1 .izquierdo{
+    width: 100%;
+    background-image: cover;
+    background-position: center;
+    animation: cambioImagen 18s infinite;
+} 
+
+@keyframes cambioImagen{
+    
+    0%{
+        background-image: url(imagenes/img1.jpg);
+    }
+    50%{
+        background-image: url(imagenes/img2.jpeg);
+    }
+    80%{
+        background-image: url(imagenes/img3.jpeg);
+    }
+   90%{
+        background-image: url(imagenes/img4.jpeg);
+    }
+    100%{
+        background-image: url(imagenes/img1.jpg);
+    }
+    
+}
+   
