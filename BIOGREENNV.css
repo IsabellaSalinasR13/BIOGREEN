@@ -3,12 +3,13 @@
 }
 .menu{
     display: flex;
-    background-color: rgb(245, 248, 241);
+    background-color: rgb(248, 250, 246);
     height: 100px;
     width: 100%;
     position: sticky;
     top: 0;
     z-index: 10;
+    font-family: unset;
 }
 nav{
     flex-grow: 3;
@@ -24,26 +25,26 @@ nav ul li{
 } 
 nav a{
    text-decoration: none;
-   color: rgb(53, 51, 51);
+   color: rgb(26, 24, 24);
    font-weight: lighter;
    font-size:100 ;
 } 
 nav a:hover{
-    color: rgb(53, 148, 81);
+    color: rgb(26, 184, 73);
 } 
 .Logo{
     background-image: url(imagenes/logo.jpg);
     height: 85px;
-    width: 120px;
+    width: 160px;
     background-size: cover;
     background-position: center;
-    margin: auto 5px;
+    margin: auto 10px;
 } 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .contenedor1{
     margin: 5px 5px;
     display: flex;
-    height: 650px;
+    height: 550px;
     overflow: hidden;
     
 } 
@@ -57,19 +58,27 @@ nav a:hover{
 @keyframes cambioImagen{
     
     0%{
-        background-image: url(imagenes/img1.jpg);
+        background-image: url(imagenes/img4.jpeg);
+    }45%{
+        background-image: url(imagenes/img4.jpeg);
     }
     50%{
-        background-image: url(imagenes/img2.jpeg);
+        background-image: url(imagenes/img7.jpg);
+    }75%{
+        background-image: url(imagenes/img7.jpg);
     }
     80%{
         background-image: url(imagenes/img3.jpeg);
+    }85%{
+        background-image: url(imagenes/img3.jpeg);
     }
    90%{
-        background-image: url(imagenes/img4.jpeg);
+        background-image: url(imagenes/img5.jpeg);
+    }95%{
+        background-image: url(imagenes/img5.jpeg);
     }
     100%{
-        background-image: url(imagenes/img1.jpg);
+        background-image: url(imagenes/img4.jpeg);
     }
     
 }
