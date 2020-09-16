@@ -1,9 +1,141 @@
-.contenedor{
-    height: 220px;
-    background-image: url(/imagenes/reciclaje1.jpg);
-    background-position: center;
+*{
+    margin: 0px;
+}
+.menu{
+    display: flex;
+    background-color: rgb(247, 251, 243);
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-family: unset;
+}
+nav{
+    flex-grow: 3;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: rgb(22, 73, 22) 2px solid;
+    margin-right: 5px;
+} 
+nav ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin: 20px 10px;
+} 
+nav a{
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-weight: lighter;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+} 
+nav a:hover{
+    color: rgb(26, 184, 73);
+} 
+.Logo{
+    background-image: url(../imagenes/logo.jpg);
+    height: 85px;
+    width: 160px;
     background-size: cover;
+    background-position: center;
+    margin: auto 10px;
+} 
+
+/*primer contenedor*/
+
+header{
+    height: 565px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+header img{
+    height: 325px;
+    width: 50%;
+    margin-left: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.Imagenjuntas img{
+    height: 700px;
+    width: 300px;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+header h1{
+    margin-left: 10%;
+    margin-right: 11%;
+    border-bottom: yellowgreen 13px double;
+    font-family: sans-serif;
+}
+
+/*segundo contenedor*/
+
+section{
+    height: 565px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+}
+.contenedores{
+    height: 400px;
+    margin-top: 95px;
+    width: 80%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: green 2px solid;
+}
+
+.contenedorUno img{
+    height: 300px;
+    width: 250px;
+    border-radius: 110px;
+}
+.contenedorUno{
+    height: 400px;
+    width: 23%;
+    margin-left: -200px;
+}
+
+.contenedorDos img{
+    height: 300px;
+    width: 250px;
+    border-radius: 110px;
+}
+.contenedorDos{
+    height: 400px;
+    width: 23%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contenedorTres img{
+    height: 300px;
+    width: 250px;
+    border-radius: 110px;
+}
+.contenedorTres{
+    height: 400px;
+    width: 23%;
+    margin-right: -200px;
+}
+section a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(39, 37, 37);
+    cursor: pointer;
+    text-decoration: none;
 }
