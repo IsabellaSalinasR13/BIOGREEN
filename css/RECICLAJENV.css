@@ -68,7 +68,8 @@ header img{
 .Imagenjuntas img{
     height: 700px;
     width: 300px;
-    margin-left: -50px;
+    margin-left: -100px;
+    margin-right: 30px;
     margin-top: -50px;
 }
 header h1{
@@ -99,7 +100,7 @@ section{
 }
 
 .contenedorUno img{
-    height: 300px;
+    height: 270px;
     width: 250px;
     border-radius: 110px;
 }
@@ -110,7 +111,7 @@ section{
 }
 
 .contenedorDos img{
-    height: 300px;
+    height: 270px;
     width: 250px;
     border-radius: 110px;
 }
@@ -122,7 +123,7 @@ section{
 }
 
 .contenedorTres img{
-    height: 300px;
+    height: 270px;
     width: 250px;
     border-radius: 110px;
 }
