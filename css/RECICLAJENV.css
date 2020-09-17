@@ -94,43 +94,20 @@ section{
     width: 80%;
     background-color: rgb(240, 240, 240);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
     border-bottom: green 2px solid;
 }
-
-.contenedorUno img{
-    height: 270px;
-    width: 250px;
-    border-radius: 110px;
-}
-.contenedorUno{
+.contenedor{
     height: 400px;
-    width: 23%;
-    margin-left: -200px;
+    width: 270px;
 }
-
-.contenedorDos img{
+.contenedor img{
     height: 270px;
-    width: 250px;
-    border-radius: 110px;
-}
-.contenedorDos{
-    height: 400px;
-    width: 23%;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-.contenedorTres img{
-    height: 270px;
-    width: 250px;
-    border-radius: 110px;
-}
-.contenedorTres{
-    height: 400px;
-    width: 23%;
-    margin-right: -200px;
+    width: 270px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 section a{
     font-family: Arial, Helvetica, sans-serif;
