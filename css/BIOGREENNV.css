@@ -3,7 +3,7 @@
 }
 .menu{
     display: flex;
-    background-color: rgb(247, 251, 243);
+    background-color: rgb(219, 243, 194);
     height: 100px;
     width: 100%;
     position: sticky;
@@ -48,25 +48,56 @@ nav a:hover{
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-.cuadroTexto{
-    height: 150px;
-    width: 99%;
-    border: 2px solid red;
-    /*margin-top: -320px;*/
-    color: white;
-    background-color: rgba(0, 0, 0, 0.767);
-}
-
 .contenedor1{
     margin: 5px 5px;
     display: flex;
     height: 550px;
 } 
 .contenedor1 .izquierdo{
-    width: 100%;
+    width: 70%;
     background-position: center;
+    background-size: cover;
     animation: cambioImagen 18s infinite;
 } 
+.contenedor1 .Derecho{
+    height: 550px;
+    width: 20%;
+    position: relative;
+    background-color: white;
+}
+.contenedor1 .Derecho::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: -30px;
+    transform-origin: bottom;
+    transform: skewX(13deg);
+    background: inherit;
+    border-left: 35px double rgb(23, 141, 23);
+}
+.contenedor1 .Derecho p{
+    background-color: rgba(0, 0, 0, 0.554);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    top: 250px;
+    left: -920px;
+    right: 360px;
+}
+.contenedor1 .Derecho img{
+    position: absolute;
+    margin-top: -155px;
+    margin-left: -40px;
+    width: 440px;
+}
 
 @keyframes cambioImagen{
     0%{

@@ -3,7 +3,7 @@
 }
 .menu{
     display: flex;
-    background-color: rgb(247, 251, 243);
+    background-color: rgb(219, 243, 194);
     height: 100px;
     width: 100%;
     position: sticky;
@@ -75,7 +75,7 @@ header img{
 header h1{
     margin-left: 10%;
     margin-right: 11%;
-    border-bottom: yellowgreen 13px double;
+    border-bottom: green 13px double;
     font-family: sans-serif;
 }
 
@@ -92,12 +92,11 @@ section{
     height: 400px;
     margin-top: 95px;
     width: 80%;
-    background-color: rgb(240, 240, 240);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: center;
-    border-bottom: green 2px solid;
+    border-bottom: green 3px solid;
 }
 .contenedor{
     height: 400px;
