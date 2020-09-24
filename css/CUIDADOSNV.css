@@ -17,7 +17,7 @@ nav{
 nav ul{
     display: flex;
     justify-content: space-around;
-    border-bottom: rgb(22, 73, 22) 2px solid;
+    border-bottom: rgb(20, 78, 20) 2px solid;
     margin-right: 5px;
 } 
 nav ul li{
@@ -35,7 +35,7 @@ nav a{
     font-size: 20px;
 } 
 nav a:hover{
-    color: rgb(26, 184, 73);
+    color: rgb(18, 66, 33);
 } 
 .Logo{
     background-image: url(../imagenes/logo.jpg);
@@ -94,7 +94,7 @@ section{
     margin: auto 50px;
     text-align: center;
     background-color: white;
-    border: 2px solid forestgreen;
+    border: 2px solid rgb(27, 68, 27);
     border-radius: 10px;
 }
 .articulos h2{
@@ -116,11 +116,11 @@ section{
     font-size: 18px;
     letter-spacing: 1px;
     border-radius: 10px;
-    background-color: rgb(29, 124, 26); 
+    background-color: rgb(13, 66, 11); 
     cursor: pointer;
 }
 .articulos a:hover{
-    background-color: yellow;
+    background-color: rgb(16, 75, 28);
     color: black;
 }
 
@@ -149,7 +149,7 @@ section{
 .ventEmergente h2{
     margin-top: -10px;
     width: 90%;
-    color: rgb(18, 75, 16);
+    color: rgb(21, 80, 19);
     letter-spacing: 1px;
 }
 .ventEmergente a{
@@ -183,7 +183,7 @@ section{
     margin-top: 80px;
     text-align: center;
     border-top: 2px solid forestgreen;
-    border-bottom: 2px solid forestgreen;
+    border-bottom: 2px solid rgb(23, 100, 23);
 }
 .conteDos img{
     margin-top: 50px;
@@ -202,7 +202,7 @@ section{
     font-weight: bolder;
 }
 .conteDos a:hover{
-    background-color: yellow;
+    background-color: rgb(22, 160, 54);
     border-radius: 20px;
     color: black;
 }
